@@ -28,9 +28,9 @@ ul{list-style:none}
 
 /* ---------- header ---------- */
 header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(247,248,247,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.header-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:14px 24px}
+.header-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:8px 24px}
 .logo{display:flex;align-items:center}
-.logo-img{height:44px;width:auto}
+.logo-img{height:76px;width:auto;max-width:70vw;object-fit:contain}
 nav.gnav ul{display:flex;gap:28px;font-size:13px;font-weight:500}
 nav.gnav a{position:relative;padding:4px 0}
 nav.gnav a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--shu);transition:width .3s}
@@ -50,7 +50,7 @@ body.menu-open .menu-btn span:nth-child(3){top:20px;transform:rotate(-45deg)}
 .hero::before{content:"";position:absolute;inset:0;background-image:
   linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
   background-size:64px 64px;opacity:.35}
-.hero-inner{position:relative;max-width:1200px;margin:0 auto;padding:120px 24px 80px;width:100%;display:flex;justify-content:space-between;align-items:center;gap:40px}
+.hero-inner{position:relative;max-width:1200px;margin:0 auto;padding:140px 24px 80px;width:100%;display:flex;justify-content:space-between;align-items:center;gap:40px}
 .hero-copy h1{writing-mode:vertical-rl;font-family:var(--serif);font-weight:600;font-size:clamp(30px,4.6vw,52px);letter-spacing:.28em;line-height:1.9;height:min(66vh,560px)}
 .hero-copy h1 em{font-style:normal;color:var(--shu)}
 .hero-lead{max-width:460px}
